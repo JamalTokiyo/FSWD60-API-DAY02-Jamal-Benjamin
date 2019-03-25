@@ -39,8 +39,10 @@
 
 						require_once 'RESTful.php';
 						$url = 'http://api.serri.codefactory.live/random/';
-						$xml = file_get_contents($url);
-						echo $xml;
+						$response = curl_get($url);
+						$result = json_decode($response);
+						echo $result->id_joke. ") ". $result->joke;
+						
 
 					?>	
 			</div>
@@ -50,7 +52,6 @@
 					<h1>BBC API</h1>
 					<?php
 
-						require_once 'RESTful.php';
 						$url = 'http://feeds.bbci.co.uk/news/technology/rss.xml';
 						$response = curl_get($url);
 						$xml = simplexml_load_string($response);
@@ -64,7 +65,6 @@
 					<h1>CNN API</h1>
 					<?php
 
-						require_once 'RESTful.php';
 						$url = 'http://rss.cnn.com/rss/edition_technology.rss';
 						$response = curl_get($url);
 						$xml = simplexml_load_string($response);
