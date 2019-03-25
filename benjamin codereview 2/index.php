@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Article</title>
+	<title>Second CodeReview</title>
 	<link rel="stylesheet" type="text/css" href="Second_CodeReview_Style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 <body>
+	<!-- This is the content of the whole page -->
 	<div class="wrapper">
+		<!-- This is the header -->
 		<header class ="header">
 			<div class="headerimg1">
 				<img src="img/logo-newspaper-cf.png">
@@ -16,23 +18,16 @@
 				<a href="https://www.codefactory.wien" title="www.codefactory.wien"><img src="img/banner-1.png"></a>
 			</div>
 		</header>
+		<!-- This is the navbar -->
 		<nav class="navbar">
 			<ul class="ulist up">
-				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="index.html" title="Home"><span class="currentsite">Home</span></a></li>
 				<li><a href="tech.html" title="Tech">Tech</a></li>
 				<li><a href="culture.html" title="Culture">Culture</a></li>
 				<li><a href="video.html" title="Video">Video</a></li>
 			</ul>
 		</nav>
-		<!-- This is the contet from the article site site -->
-		<div class="bodycontainer">	
-			<div class="date">
-				<p>Friday, 18.01.2019</p>
-			</div>
-			<div class="sidepagecontent">
-				<h1>Check the console</h1>
-			</div>
-		</div>
+		<!-- This is the footer at the bottom of the page -->
 		<div class="footer">
 			<ul class="ulist down">
 				<li class="bl">Home</li>
@@ -48,7 +43,5 @@
 			</div>
 		</div>
 	</div>
-	<!-- This is the connection to the javascript page with the console instructions -->
-	<script type="text/javascript" src="Second_CodeReview_JS.js"></script>
 </body>
 </html>
