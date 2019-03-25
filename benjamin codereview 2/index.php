@@ -88,7 +88,7 @@
 				<img src="img/logo-newspaper-cf.png">
 			</div>
 			<div class="footertxt">
-				<p>Benjamin Schneider - CodeFactory 2019</p>
+				<p>Benjamin Schneider AND Jamal Ahmed - CodeFactory 2019</p>
 			</div>
 		</div>
 	</div>
